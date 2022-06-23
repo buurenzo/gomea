@@ -41,7 +41,7 @@ stop (integer): stops process if flat (counter) hits stop
 '''
 
 specs = {'generations': 20,
-         'population': 400,
+         'population': 200,  # 400,
          'startpop': None,
          'deptype': 1,
          'threshold': 0.01,

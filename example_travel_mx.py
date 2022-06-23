@@ -9,7 +9,7 @@ def read_data(nrows):
     abs_path = os.path.abspath('travel_matrix.py')
     directory = os.path.dirname(abs_path)
     save_path = directory
-    file_name = 'example_data'
+    file_name = 'test'
     extension = '.xlsx'
     complete_path = os.path.join(save_path, file_name+extension)
     xfile = pd.ExcelFile(complete_path)
